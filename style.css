@@ -122,7 +122,6 @@ section.topo-do-site .flex{
 /*ESTILO DA ABA TECNOLOGIAS*/
 section.tecnologias{
     padding: 40px 4%;
-    
 }
 
 section.tecnologias .flex{
@@ -132,20 +131,14 @@ section.tecnologias .flex{
 }
 
 .tecnologias .tecnologias-box{
-    color: rgba(255, 255, 255, 0.582);
+    color: rgb(255, 255, 255);
     padding: 40px;
-    border: 2px solid#815dc300;
-    text-decoration: none;
-    display: inline-block;
-    transition: .2s;
     margin-top: 45px;
-    border-radius: 20px;
 }
 
 .tecnologias .tecnologias-box:hover{
     color: #fff;
-    box-shadow: 0 0 10px #805dc3;
-    transform: scale(1.05);
+    
 }
 
 .tecnologias .tecnologias-box h3{
@@ -154,3 +147,4 @@ section.tecnologias .flex{
     text-align: center;
 }
 
+/*ESTILO ABA MEUS PROJETOS*/
