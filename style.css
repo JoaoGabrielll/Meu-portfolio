@@ -20,6 +20,16 @@ body{
     display: flex;
 }
 
+h2.titulo{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: #805DC3;
+}
+
 /*ESTILO DO HEADER*/
 header{
     padding: 40px 4%;
@@ -65,7 +75,7 @@ header .aba-contatos button{
     color: white;
 }
 
-header .aba-contatos button:hover{
+header.aba-contatos button:hover{
     box-shadow: 0px 0px 8px #855dcede;
 }
 
@@ -97,7 +107,7 @@ section.topo-do-site .flex{
 
 .topo-do-site .img-sobre-mim{
     position: relative;
-    animation: flutuar 2s ease-in-out infinite alternate;
+    animation: flutuar 3s ease-in-out infinite alternate;
 }
 
 @keyframes flutuar{
@@ -108,3 +118,39 @@ section.topo-do-site .flex{
         top: 30px;
     }
 }
+
+/*ESTILO DA ABA TECNOLOGIAS*/
+section.tecnologias{
+    padding: 40px 4%;
+    
+}
+
+section.tecnologias .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.tecnologias .tecnologias-box{
+    color: rgba(255, 255, 255, 0.582);
+    padding: 40px;
+    border: 2px solid#815dc300;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+    margin-top: 45px;
+    border-radius: 20px;
+}
+
+.tecnologias .tecnologias-box:hover{
+    color: #fff;
+    box-shadow: 0 0 10px #805dc3;
+    transform: scale(1.05);
+}
+
+.tecnologias .tecnologias-box h3{
+    font-size: 20px;
+    margin: 15px 0;
+    text-align: center;
+}
+
