@@ -94,3 +94,17 @@ section.topo-do-site .flex{
     color: white;
     font-size: 18px;
 }
+
+.topo-do-site .img-sobre-mim{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 30px;
+    }
+}
