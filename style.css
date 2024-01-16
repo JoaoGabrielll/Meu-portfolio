@@ -127,6 +127,7 @@ section.tecnologias{
 section.tecnologias .flex{
     align-items: center;
     justify-content: center;
+    padding: 40px 4%;
     gap: 60px;
 }
 
@@ -134,11 +135,6 @@ section.tecnologias .flex{
     color: rgb(255, 255, 255);
     padding: 40px;
     margin-top: 45px;
-}
-
-.tecnologias .tecnologias-box:hover{
-    color: #fff;
-    
 }
 
 .tecnologias .tecnologias-box h3{
