@@ -144,3 +144,30 @@ section.tecnologias .flex{
 }
 
 /*ESTILO ABA MEUS PROJETOS*/
+section.meus-projetos{
+    padding: 40px 4%;
+}
+
+section.meus-projetos .flex{
+    align-items: center;
+    justify-content: center;
+    padding: 40px 4%;
+    gap: 60px;
+}
+
+.meus-projetos .box-projetos{
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: #805dc3;
+}
+
+.meus-projetos .box-projetos a{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    
+    
+}
