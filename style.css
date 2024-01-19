@@ -52,7 +52,6 @@ header a{
 header a:hover{
     color: #fff;
     transform: scale(1.05);
-    
 }
 
 header nav ul{
@@ -64,48 +63,39 @@ header nav ul li{
     padding: 0 40px;
 }
 
-header .aba-contatos button{
-    padding: 10px 40px;
-    font-size: 18px;
-    font-weight: 700;
-    background-color: #805dc3;
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
-    color: white;
-}
-
-header.aba-contatos button:hover{
-    box-shadow: 0px 0px 8px #855dcede;
-}
-
 /*ESTILO DO "SOBRE MIM" */
-section.topo-do-site{
+section.aba-sobre-mim{
     padding: 40px 4%;
 }
 
-section.topo-do-site .flex{
+section.aba-sobre-mim .flex{
     align-items: center;
     justify-content: center;
     gap: 90px;
 }
 
-.topo-do-site h1{
+.aba-sobre-mim h1{
     color: white;
     font-size: 42px;
     font-weight: 700;
 }
 
-.topo-do-site span{
+.aba-sobre-mim span{
     color: #805dc3;
 }
 
-.topo-do-site p{
+.aba-sobre-mim p{
     color: white;
     font-size: 18px;
+    
 }
 
-.topo-do-site .img-sobre-mim{
+.aba-sobre-mim a img{
+    margin: 5px;
+    margin-top: 20px;
+}
+
+.aba-sobre-mim .img-sobre-mim{
     position: relative;
     animation: flutuar 3s ease-in-out infinite alternate;
 }
@@ -145,29 +135,41 @@ section.tecnologias .flex{
 
 /*ESTILO ABA MEUS PROJETOS*/
 section.meus-projetos{
-    padding: 40px 4%;
+    padding: 80px 4%;
+    box-shadow: 0 0 40px 10px #ffffff1a;
 }
 
 section.meus-projetos .flex{
-    align-items: center;
-    justify-content: center;
-    padding: 40px 4%;
     gap: 60px;
 }
-
-.meus-projetos .box-projetos{
-    width: 500px;
-    height: 300px;
-    border-radius: 20px;
-    background-color: #805dc3;
+.box-projetos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
 }
 
-.meus-projetos .box-projetos a{
-    display: flex;
+.box-projetos a{
+    width: 300px;
+    height: 200px;
+    display: inline-block;
     text-align: center;
-    justify-content: center;
-    color: #fff;
+    background-color: #815dc315;
+    border: 4px solid #815dc350;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #815dc373;
     text-decoration: none;
-    
-    
+    color: #ffffff86;
+    font-size: 20px;
+    font-weight: bold;
+    transition: .2s;
+}
+
+.box-projetos a:hover{
+    border: 4px solid #5712e2c9 ;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #5815d373;
+    background-color: #5712e279;
+    color: #fff;
+    transform: scale(1.05);
 }
